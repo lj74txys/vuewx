@@ -1,0 +1,74 @@
+@charset "UTF-8";
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html,
+body{
+	height:100%;
+	width: 100%;
+    /*overflow: hidden;*/
+}
+
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
+input,
+button {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+body,
+.footer-box,
+.header-top-back,
+.header-top,
+.chat-tool{
+    max-width: 768px;
+    margin:0 auto;
+}
+ul li{
+    list-style-type: none;
+}

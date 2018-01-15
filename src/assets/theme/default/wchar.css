@@ -1,0 +1,270 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box; }
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: transparent; }
+
+html,
+body {
+  height: 100%;
+  width: 100%; }
+
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0; }
+
+input,
+button {
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: 0; }
+
+.header-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: -webkit-box;
+  background: #393a3f;
+  line-height: 5rem;
+  color: #fff; }
+  .header-top div:nth-child(1) {
+    width: 70%;
+    padding-left: 20px;
+    font-size: 22px; }
+  .header-top div:nth-child(2) {
+    width: 15%;
+    line-height: 5rem;
+    font-size: 2.4rem; }
+  .header-top div:nth-child(3) {
+    width: 15%;
+    line-height: 5rem;
+    font-size: 2.4rem; }
+
+.panel-index {
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+  background: #f3f2f7; }
+  .panel-index .pcicon-top {
+    background: #f5f5f5;
+    line-height: 5rem;
+    border-bottom: 1px solid #d9d9db; }
+
+.login-text {
+  color: #595959;
+  margin-left: 20px;
+  line-height: 5rem;
+  font-size: 1.6rem; }
+
+.icon-pc {
+  margin-left: 22px;
+  font-size: 30px;
+  color: #78797b; }
+
+.top-list,
+.cont-list {
+  width: 100%;
+  margin: 0 auto;
+  background: #f3f2f7; }
+
+.cont-list {
+  background: #fff; }
+
+.index-item-list {
+  display: flex;
+  padding: 15px 20px;
+  border-bottom: 1px solid #d9d9db; }
+  .index-item-list .index-list-img {
+    width: 5rem;
+    height: 5rem; }
+    .index-item-list .index-list-img img {
+      width: 100%; }
+  .index-item-list .index-list-text {
+    flex: 1;
+    width: 100%;
+    padding-left: 1rem; }
+    .index-item-list .index-list-text .list-name {
+      display: flex;
+      line-height: 2.5rem; }
+      .index-item-list .index-list-text .list-name span:nth-child(1) {
+        font-size: 2rem;
+        color: #363638;
+        display: block;
+        flex: 1; }
+      .index-item-list .index-list-text .list-name span:nth-child(2) {
+        font-size: 1.8rem;
+        color: #939297;
+        display: block;
+        padding-left: 1rem; }
+    .index-item-list .index-list-text .list-text-c {
+      font-size: 1.8rem;
+      color: #939297;
+      line-height: 2.5rem; }
+
+.footer-box {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 6rem;
+  background: #fcfcfc;
+  display: -webkit-box; }
+  .footer-box .f-item {
+    width: 25%;
+    color: #8f8f8f; }
+    .footer-box .f-item div:nth-child(1) {
+      display: -webkit-box;
+      -webkit-box-orient: horizontal;
+      -webkit-box-pack: center;
+      -webkit-box-align: center;
+      font-size: 3rem;
+      height: 4rem; }
+    .footer-box .f-item span {
+      display: -webkit-box;
+      -webkit-box-orient: horizontal;
+      -webkit-box-pack: center;
+      -webkit-box-align: center;
+      font-size: 1.4rem;
+      line-height: 1rem; }
+  .footer-box .active {
+    color: #46c11b; }
+
+.panel-address {
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+  background: #fff; }
+  .panel-address .items-address-tit {
+    background: #ebebeb;
+    height: 2rem;
+    line-height: 2rem;
+    color: #848484;
+    padding-left: 20px; }
+
+.items-list-address {
+  display: flex;
+  padding: 10px 0px;
+  margin: 0 20px;
+  border-bottom: 1px solid #dcdcdc; }
+  .items-list-address .items-img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 2rem; }
+    .items-list-address .items-img img {
+      width: 100%; }
+  .items-list-address .item-text {
+    flex: 1;
+    font-size: 1.8rem;
+    line-height: 3rem; }
+
+.panel-box {
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+  background: #ebebeb;
+  height: 100%;
+  overflow-y: scroll; }
+  .panel-box .group-list {
+    margin: 2rem 0;
+    background: #fff; }
+  .panel-box .border-b {
+    border-bottom: 1px solid #dcdcdc; }
+  .panel-box .border-t {
+    border-top: 1px solid #dcdcdc; }
+  .panel-box .items-list {
+    display: flex;
+    padding: 10px 0;
+    margin: 0 20px; }
+    .panel-box .items-list .items-img {
+      width: 3rem;
+      height: 3rem;
+      margin-right: 2rem; }
+      .panel-box .items-list .items-img img {
+        width: 100%; }
+    .panel-box .items-list .item-text {
+      flex: 1;
+      display: flex;
+      font-size: 1.8rem;
+      line-height: 3rem; }
+      .panel-box .items-list .item-text .text-l {
+        flex: 1; }
+      .panel-box .items-list .item-text .text-r {
+        font-size: 1.2rem;
+        color: #999999;
+        display: flex; }
+        .panel-box .items-list .item-text .text-r .the-ad {
+          flex: 1;
+          margin-right: 0.7rem; }
+        .panel-box .items-list .item-text .text-r .the-icon {
+          width: 2.5rem;
+          height: 2.5rem;
+          margin-right: 0.7rem;
+          position: relative; }
+          .panel-box .items-list .item-text .text-r .the-icon img {
+            width: 100%; }
+          .panel-box .items-list .item-text .text-r .the-icon .small-mark {
+            position: absolute;
+            background: #fc4041;
+            width: 1.2rem;
+            height: 1.2rem;
+            border-radius: 10px;
+            top: -0.5rem;
+            right: -0.7rem; }
+  .panel-box .my-info {
+    display: flex;
+    padding: 10px 0;
+    margin: 0 20px; }
+  .panel-box .my-img {
+    width: 5rem; }
+    .panel-box .my-img img {
+      width: 100%; }
+  .panel-box .my-item-text {
+    flex: 1;
+    padding-left: 1rem; }
+    .panel-box .my-item-text div:nth-child(1) {
+      font-size: 2rem;
+      color: #383838;
+      line-height: 3rem; }
+    .panel-box .my-item-text div:nth-child(2) {
+      font-size: 1.8rem;
+      color: #9a9a9a;
+      line-height: 2rem; }
+  .panel-box .erweima {
+    padding: 1.5rem 0 1.5rem 1.5rem; }
+    .panel-box .erweima img {
+      width: 2rem;
+      height: 2rem; }
+
+/*# sourceMappingURL=wchar.css.map */
